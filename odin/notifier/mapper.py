@@ -65,11 +65,11 @@ class WorldSaveTemplate(Template):
 
 
 MAP = {
-    types.ServerOn: ServerOnTemplate,
-    types.ServerOff: ServerOffTemplate,
-    types.Join: JoinTemplate,
-    types.Death: DeathTemplate,
-    types.WorldSave: WorldSaveTemplate,
+    types.ServerOn: Template,
+    types.ServerOff: Template,
+    types.Join: Template,
+    types.Death: Template,
+    types.WorldSave: Template,
 }
 
 

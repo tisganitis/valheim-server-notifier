@@ -8,7 +8,7 @@ class Death(Event):
         self.viking = viking
 
     def __str__(self) -> str:
-        return f'**Viking {self.viking} has gone to Valhala!**'
+        return f'**{self.viking} died!**'
 
 
 class Join(Event):
@@ -18,7 +18,7 @@ class Join(Event):
         self.viking = viking
 
     def __str__(self) -> str:
-        return f'*Viking {self.viking} has joined the battle!*'
+        return f'**{self.viking} joined the server.**'
 
 
 class ServerOn(Event):

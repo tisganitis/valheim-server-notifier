@@ -17,9 +17,9 @@ LOG_EVENT_TYPE_REGEXES = {
     "game_server_shutdown": {
         "regex": "OnApplicationQuit",
         'class': types.ServerOff,
-    },
-    "world_saved": {
-        "regex": "World saved \( (\d+\.\d+ms) \)",
-        'class': types.WorldSave,
-    }
+    }#,
+#    "world_saved": {
+#        "regex": "World saved \( (\d+\.\d+ms) \)",
+#        'class': types.WorldSave,
+#    }
 }
